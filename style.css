@@ -1,0 +1,169 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--very-light-gray);
+    font-family: 'Poppins', sans-serif;
+}
+
+body > h2:first-child {
+    position: absolute;
+    top: 5rem;
+    left: 48rem;
+    color: var(--grayish-blue);
+    font-size: 24.5px;
+}
+
+body > h2:nth-child(2) {
+    position: absolute;
+    top: 7.5rem;
+    left: 48rem;
+    font-size: 26px;
+    color: var(--very-dark-blue);
+}
+
+body > p:first-of-type {
+    position: absolute;
+    top: 11rem;
+    left: 45.5rem;
+    max-width: 54ch;
+    text-align: center;
+    color: var(--grayish-blue);
+    font-size: 11.4px;
+}
+
+.team-builder {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 17rem;
+    left: 48rem;
+    border-top: 3px solid var(--red);
+}
+
+.team-builder h3 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.team-builder p {
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    font-size: 11.4px;
+    max-width: 31ch;
+    color: var(--grayish-blue);
+}
+
+.team-builder img {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.karma {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 35rem;
+    left: 48rem;
+    border-top: 3px solid var(--orange);
+}
+
+.karma h3 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.karma p {
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    font-size: 11.4px;
+    max-width: 32ch;
+    color: var(--grayish-blue);
+}
+
+.karma img {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.calculator {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 25rem;
+    left: 68rem;
+    border-top: 3px solid var(--blue);
+}
+
+.calculator h3 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.calculator p {
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    font-size: 11.4px;
+    max-width: 32ch;
+    color: var(--grayish-blue);
+}
+
+.calculator img {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.supervisor {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 25rem;
+    left: 28rem;
+    border-top: 3px solid var(--cyan);
+}
+
+.supervisor h3 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.supervisor p {
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    font-size: 11.4px;
+    max-width: 32ch;
+    color: var(--grayish-blue);
+}
+
+.supervisor img {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
